@@ -1,0 +1,23 @@
+# build trees
+build/
+build-*/
+cmake-build-*/
+install/
+
+# datasets and third-party sources fetched by scripts/
+data/
+third_party/
+
+# benchmark artifacts not meant for the repository
+docs/results/images/*
+!docs/results/images/*_montage.png
+*.nsys-rep
+*.sqlite
+*.ncu-rep
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+__pycache__/
