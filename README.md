@@ -142,7 +142,7 @@ dependency**; the benchmark and the example need OpenCV (the benchmark needs an
 OpenCV build with CUDA, and `cudastereo` for `cv::cuda::StereoSGM`).
 
 ```bash
-git clone https://github.com/<you>/pyrsgm.git && cd pyrsgm
+git clone https://github.com/gegeges/pyrsgm.git && cd pyrsgm
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release        # auto-detects the local GPU arch
 cmake --build build -j
 ctest --test-dir build                                  # pyramid_smoke + matcher_test
